@@ -11,7 +11,7 @@ from elasticsearch import Elasticsearch
 db=pymysql.connect("localhost","root","","proje",use_unicode=True,charset="utf8")
 cursor=db.cursor()
 
-g = geocoders.GoogleV3(api_key='AIzaSyCDnosFm3cjkwzmzFelPaLWmU4pltZuSQg')
+g = geocoders.GoogleV3(api_key='*********************')
 
 es=Elasticsearch([{'host':'localhost','port':9200}])
 

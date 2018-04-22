@@ -1,0 +1,1 @@
+Twitter üzerinden real time veri çekimi Kafka üzerinden producer olarak alýnan veri consumer tarafýnda Spark streaming ile consume ediliyor.Programlama dili olarak Python kullanýlmýþtýr.
